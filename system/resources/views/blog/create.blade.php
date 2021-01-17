@@ -7,7 +7,7 @@
 			<div class="col-md-12">
 				<div class="card mt-4">
 					<div class="card-header">
-						Tambah Data Blog
+						Tambah Data produk
 						<form action="{{url('blog')}}" method="post">
 							@csrf
 					</div>

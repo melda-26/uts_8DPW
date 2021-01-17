@@ -7,13 +7,18 @@
 			<div class="col-md-12">
 				<div class="card mt-4">
 					<div class="card-header">
-						Detail Data Blog
+						Detail Data produk
 					</div>
 					<div class="card-body">
 						<h4>{{$blog->judul}}</h4><hr>
 						<p>
-							 {{"@".$blog->Isi}}
-							
+						Rp.200{{number_format($blog->harga)}} |
+							Stok : {{$blog->stok}} |
+							Berat : {{$blog->berat}} gr |
+							Warna : {{$blog->warna}} gr|
+							 	</p>
+							<p>
+								{{"@".$blog->Isi}}
 						</p>
 					
 					</div>

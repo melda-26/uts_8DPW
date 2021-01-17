@@ -7,7 +7,7 @@
 			<div class="col-md-12">
 				<div class="card mt-4">
 					<div class="card-header">
-						Data Blog
+						Data produk
 						<a href="{{url('blog/create')}}" class="btn btn-dark float-right"><i class="fa fa-plus">  Tambah Data</i></a>
 					</div>
 					<div class="card-body">

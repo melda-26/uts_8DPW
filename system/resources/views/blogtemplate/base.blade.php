@@ -24,11 +24,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
   <!-- Navbar -->
-  @include('blogtemplate.section.header')
+  @include('template.section.header')
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
- 
+  @include('template.section.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -60,7 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- /.control-sidebar -->
 
   <!-- Main Footer -->
-  @include('blogtemplate.section.footer')
+  @include('template.section.footer')
 </div>
 <!-- ./wrapper -->
 

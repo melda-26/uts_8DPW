@@ -37,9 +37,9 @@
               
             <ul class="nav-item">
               <li class="nav-item">
-                 <a class="nav-link" href="{{url('blog')}}">
+                 <a class="nav-link" href="{{url('produk')}}">
                                               
-                           <p>Produk</p>
+                           <p>PRODUK</p>
                         </a>
               </li>
               <li class="nav-item">
@@ -47,19 +47,18 @@
                        
                             <p>User</p>
                         </a>
-             
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link" href="{{url('Artikel')}}">
-                       
-                            <p>Artikel</p>
-               </a>
-               </li>
+             </li>
               <li class="nav-item">
                  <a class="nav-link" href="{{url('register')}}">
                         <i class="fas fa-align-justify"></i> 
                             <p>Register</p>
                         </a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="{{url('Promo')}}">
+                       
+                            <p>Promo</p>
+               </a>
               </li>
               <li class="nav-item">
                  <a class="nav-link" href="{{url('login')}}">
