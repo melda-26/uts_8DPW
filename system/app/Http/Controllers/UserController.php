@@ -16,7 +16,6 @@ class UserController extends controller{
 		$user-> nama = request('nama');
 		$user-> username= request('username');
 		$user-> email = request('email');
-		$user-> password = bcrypt(request('password'));
 		$user->save();
 
 		return redirect('user')->with('success','Data berhasil ditambahkan');
